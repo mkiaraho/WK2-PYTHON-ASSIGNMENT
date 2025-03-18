@@ -12,7 +12,7 @@ my_list = [(10, 20, 30, 40), 15, 50 ,60]
 for i, item in enumerate(my_list):
     if isinstance(item, tuple) and 30 in item:
         print(f"30 is inside the tuple at index {i}")
-        break
+        print("final list", my_list)
 
 
 
